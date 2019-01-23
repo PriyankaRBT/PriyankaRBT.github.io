@@ -18,7 +18,11 @@ img{
     text-align: center;
     font-family: 'Bree Serif', serif;
 }
-a, a:hover{
+a{
+    text-decoration: none;
+}
+
+a:hover{
     text-decoration: none;
 }
 
