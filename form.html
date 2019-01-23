@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <title>Employee Details</title>
+     <link rel="stylesheet" type="text/css" href="formpage.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Muli" rel="stylesheet"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ </head>
+ <body>
+     <div id="user_form">
+     <form method="GET">
+        
+        
+        <fieldset class="ub_fieldset"><legend class="ub_legend">Personal Details</legend>
+             <label>FirstName:</label> <input type="text" name="firstname"><br>
+             <label>LastName:</label> <input type="text" name="lastname"><br>
+             <label>Birthday:</label> <input type="date" name="birthday"><br>
+             <label>Gender:</label> <br>
+             <div id="gender_radio">
+             <input type="radio" name="gender" value="Male">Male<br>
+             <input type="radio" name="gender" value="Female">Female<br>
+            </div>
+            <br>
+             <label>Email:</label> <input type="email" name="email" required><br>
+             <label>Password:</label> <input type="password" name="password"><br>
+        </fieldset>
+       
+
+         
+        <div id="space"></div>
+      
+        <fieldset class="ub_fieldset"><legend class="ub_legend">Work Experience</legend>
+         
+         <label>Domain:</label>  <br>
+         <input type="Checkbox" name="Development">Development<br>
+         <input type="Checkbox" name="Design">Design<br>
+         <input type="Checkbox" name="Human Resources">Human Resources<br>
+         <br>
+         <label>Experience:</label>
+         <select>
+             <option value="Fresher">Fresher</option>
+             <option value="1 year">1 year</option>
+             <option value="2 years">2 years</option>
+             <option value="3 years">3 years</option>
+
+         </select><br><br><br>
+        
+        </fieldset><br>
+        <div class="buttons">
+        <input type="submit" value="Submit">
+        <input type="reset">
+        </div>
+    
+     </form>
+    </div>
+ </body>
+</html>

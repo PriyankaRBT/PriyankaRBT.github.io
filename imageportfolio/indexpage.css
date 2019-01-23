@@ -1,0 +1,31 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1548041347-390744c58da6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=983&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.centered {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Bungee Shade', cursive; 
+    
+  }
+
+  a,a:hover{
+      text-decoration: none;
+  }
+
+  p{
+    transition: transform 1s;
+  }
+
+ p:hover{
+      transform: scale(1.25);
+  }
