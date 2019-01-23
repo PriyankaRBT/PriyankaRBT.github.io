@@ -11,6 +11,9 @@ body{
 
 img{
     border-radius: 50%;
+    width:60px;
+    height:60px;
+    transition: all 1s;
 }
 
 #imageandname{
@@ -18,12 +21,9 @@ img{
     text-align: center;
     font-family: 'Bree Serif', serif;
 }
-a{
-    text-decoration: none;
-}
 
-a:hover{
-    text-decoration: none;
+img:hover{
+    transform: scale(1.1);
 }
 
 #introduction{
@@ -47,7 +47,11 @@ a:hover{
     margin-bottom: 6%;
     margin-left: 5%;
     margin-right:5%;
+    transition: all 1s;
 
+}
+#nav_journalpage:hover{
+    transform: scale(1.1);
 }
 #buttonlinks{
     display: flex;
@@ -62,12 +66,23 @@ a:hover{
     font-family: 'Muli', sans-serif;
     text-align: justify;
     text-justify: inter-word;
+    
 }
+
 
 
 #contactme{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover{
+    text-decoration: none !important;
+    
 }
 
